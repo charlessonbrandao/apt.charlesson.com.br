@@ -2,9 +2,11 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-RELEASE="$REPO_ROOT/dists/stable/Release"
+DIST="$REPO_ROOT/dists/stable"
+RELEASE="$DIST/Release"
+TMP_RELEASE="$DIST/Release.tmp"
 
-cat > "$RELEASE" <<'EOF'
+cat > "$TMP_RELEASE" <<EOM
 Origin: Charlesson
 Label: Charlesson APT
 Suite: stable
@@ -13,28 +15,8 @@ Architectures: amd64 all
 Components: main
 Description: Charlesson APT Repository
 
-EOF
+EOM
 
-cd "$REPO_ROOT/dists/stable"
+apt-ftparchive release "$DIST" >> "$TMP_RELEASE"
 
-{
-    echo "MD5Sum:"
-    find main -type f \( -name 'Packages' -o -name 'Packages.gz' \) -print0 |
-        sort -z |
-        while IFS= read -r -d '' file; do
-            printf " %s %16d %s\n" \
-                "$(md5sum "$file" | cut -d' ' -f1)" \
-                "$(stat -c%s "$file")" \
-                "$file"
-        done
-
-    echo "SHA256:"
-    find main -type f \( -name 'Packages' -o -name 'Packages.gz' \) -print0 |
-        sort -z |
-        while IFS= read -r -d '' file; do
-            printf " %s %16d %s\n" \
-                "$(sha256sum "$file" | cut -d' ' -f1)" \
-                "$(stat -c%s "$file")" \
-                "$file"
-        done
-} >> "$RELEASE"
+mv "$TMP_RELEASE" "$RELEASE"
