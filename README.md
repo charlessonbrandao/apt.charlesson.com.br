@@ -1,6 +1,6 @@
 # Charlesson APT
 
-Repositório APT para distribuição de pacotes do projeto Securo.
+Repositório APT para distribuição de pacotes do meu projeto Securo.
 
 ## Estrutura
 
