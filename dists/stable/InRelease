@@ -5,31 +5,27 @@ Origin: Charlesson
 Label: Charlesson APT
 Suite: stable
 Codename: stable
+Date: Tue, 25 Aug 2026 12:59:31 +0000
+Valid-Until: Tue, 01 Sep 2026 12:59:31 +0000
 Architectures: amd64 all
 Components: main
 Description: Charlesson APT Repository
-
-Date: Tue, 25 Aug 2026 12:18:35 +0000
 MD5Sum:
- 806ce661b54c31cb8f81154022f82cb2             1524 Release
  14ee5ebd24f47a4eb5679eab9b92b1b3              485 main/binary-all/Packages
  15fa55a4829e5766667bb1c2cf50a52d              360 main/binary-all/Packages.gz
 SHA1:
- 19e1ac25f7961b2ee8c1a18e5f9a52ad2ec5fc88             1524 Release
  3e4c85d954e486c94bf1da078811165e607bbcd6              485 main/binary-all/Packages
  8ea2df8b8202096e86413cfb2c208379fb58805c              360 main/binary-all/Packages.gz
 SHA256:
- 432fdf268f442bf13d0eae909fc113cf6a2e3c22632e53b6bb14d987cf3eb968             1524 Release
  f203b814f90324d867b65043db1a1c49b15503666ac6d58a73749336ab58d73d              485 main/binary-all/Packages
  d6ee61dbb5793c69d40e521d0bf4a6f4f5ea68c9b0bc128477fb9eac2937bc4b              360 main/binary-all/Packages.gz
 SHA512:
- ca2f1eb0abac9e3715bc384193572237cd71730c4bb72275f14173d7f8bd05243bcd8363d23f00a5afa5925a410bcd475c7c7f713e28461165f294477b777ea0             1524 Release
  8694244eb3b3641386214095bf0b38a70f5ef49b72d309c055ce4daf5ab09fd25457185481451125720c2334a8612a21f9a887fb68f57f780ae6d75c59fe2ea5              485 main/binary-all/Packages
  58a9ac7172e8b672cda6e114e33cd67c625e110fbc18027e3ad11f80bedc0283558615893e335ab96c02a61a5a58779cf1abffb2af9627fdd89017d8e0884ee8              360 main/binary-all/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQQcllV++912EGnt4JEU3o/97+hS5AUCao2IwAAKCRAU3o/97+hS
-5O/kAQCW6EqtVFoT0HzwQ7aCjTVw2D+ptJ1knDj4xbq4An03gQD/fw9w9tYeBV4t
-MIKORElePl/GSf/iwJzhB1CkI6tgGAY=
-=hBHg
+iHUEARYIAB0WIQQcllV++912EGnt4JEU3o/97+hS5AUCao2R2wAKCRAU3o/97+hS
+5M8LAP9xyn6qwnV4FA+aGYg9r58R9T0OGO6MEUAX4zbSoHhh8AD/ZxmBsX/pRtjW
+qPwe5aFHoHOUPRlwCUNH9P3g+pxKJwQ=
+=ByIM
 -----END PGP SIGNATURE-----
