@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Charlesson
+Label: Charlesson APT
+Suite: stable
+Codename: stable
+Architectures: amd64 all
+Components: main
+Description: Charlesson APT Repository
+
+MD5Sum:
+ 14ee5ebd24f47a4eb5679eab9b92b1b3              485 main/binary-all/Packages
+ 15fa55a4829e5766667bb1c2cf50a52d              360 main/binary-all/Packages.gz
+SHA256:
+ f203b814f90324d867b65043db1a1c49b15503666ac6d58a73749336ab58d73d              485 main/binary-all/Packages
+ d6ee61dbb5793c69d40e521d0bf4a6f4f5ea68c9b0bc128477fb9eac2937bc4b              360 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYIAB0WIQQcllV++912EGnt4JEU3o/97+hS5AUCao2FIAAKCRAU3o/97+hS
+5FxLAQClmF8wkbVCX76tXj2iKWhKidtLlAaP8UAv16HVnCRQywD/QyyMGPSHxIQn
+OTWdY7ORKTgJZ98QbjgGx04+O7oVGAQ=
+=NZc7
+-----END PGP SIGNATURE-----

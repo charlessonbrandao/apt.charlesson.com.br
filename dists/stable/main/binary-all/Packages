@@ -1,0 +1,14 @@
+Package: securo-hello
+Version: 1.0.0
+Architecture: all
+Maintainer: Charlesson Brandão
+Filename: pool/main/s/securo-hello/securo-hello_1.0.0_all.deb
+Size: 944
+MD5sum: e51f4991c1a801c4be87dc78411fba88
+SHA1: c8013af9b378e4bd5a3e7e2ec2b27327e9fbb467
+SHA256: 8c4e50c1a8eecf78c580888c2a438928fc3be54221000d2cada92299fce60014
+Section: misc
+Priority: optional
+Description: Test package for the Charlesson APT repository
+ A minimal package used to validate the APT repository infrastructure.
+
