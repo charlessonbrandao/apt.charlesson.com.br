@@ -5,19 +5,25 @@ Origin: Securo OS
 Label: Securo OS
 Suite: stable
 Codename: stable
-Architectures: all
+Architectures: amd64
 Components: main
-Date: Tue, 25 Aug 2026 15:37:35 +0000
+Date: Tue, 25 Aug 2026 15:59:20 +0000
 MD5Sum:
- ef0987e27daf028f4071d221478abb15             1067 main/binary-all/Packages
- a5d3dcb6e0071f191fed43e4b7c66be6              629 main/binary-all/Packages.gz
+ ef0987e27daf028f4071d221478abb15             1067 main/binary-amd64/Packages
+ 11bcd231eec1ddf61306eda9a03e98b6              629 main/binary-amd64/Packages.gz
+SHA1:
+ fd2b32ca758627e31c7203a6a046025fec0e69b1             1067 main/binary-amd64/Packages
+ a43412b7ff82cae38f0d0197eb4e049d00b5fb02              629 main/binary-amd64/Packages.gz
 SHA256:
- 9005549757cf08cc96eb612bf9da1ae015cd6dc79a236317de173604a2b6477b             1067 main/binary-all/Packages
- 821107e2d51e14739ab3040e976b62631086650b4cda6717ef3348342df923ce              629 main/binary-all/Packages.gz
+ 9005549757cf08cc96eb612bf9da1ae015cd6dc79a236317de173604a2b6477b             1067 main/binary-amd64/Packages
+ 64104a2aa4c23b1546a7afda417f208abe1b06ba3f6e56e200fd2abb74270502              629 main/binary-amd64/Packages.gz
+SHA512:
+ 1ba45bfc1b0cefe541441ec9f02491ce6c910bc4489b4e197af1305dc967031140bdb9d736032b17c8cf91bf4c24617a5ab4137e0583fad20611015df31301cc             1067 main/binary-amd64/Packages
+ b043ac80aa82748ecd39e2911eac75063bf3cc3030320471c98860111053b7495ce8ab08ca65d0e3c51d9f528c4bd003db78bc675b4b13256cc7035748c81662              629 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQcllV++912EGnt4JEU3o/97+hS5AUCao23SwAKCRAU3o/97+hS
-5PtfAQDPrlh8NGupKlzZqVzry0kma7IzoA4Fd0Qti6b52zjMEgD/filOV3PpLgXm
-1gf4lMXfbe4kY5o/W6n95x7QmSvqbAc=
-=7vi7
+iHUEARYKAB0WIQQcllV++912EGnt4JEU3o/97+hS5AUCao28DgAKCRAU3o/97+hS
+5BbVAP9hyHczE4LyidqNLTIHil1t6XG18xEw0gT8KOcmlwFy/gEA1yQTCg/50PCE
+QRB3s75Gv5XXHIXWVs5olrFI4DnvfAQ=
+=K/zG
 -----END PGP SIGNATURE-----
