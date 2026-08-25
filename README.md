@@ -1,9 +1,9 @@
-# Charlesson APT
 
-Repositório APT para distribuição de pacotes do meu projeto Securo.
 
-## Estrutura
+APT repository for Securo packages
 
-- `site/` — conteúdo publicado pelo GitHub Pages.
-- `repo/` — árvore do repositório APT.
-- `scripts/` — ferramentas de geração e assinatura.
+## Structure
+
+- `site/` — Landing page
+- `repo/` — APT tree branch
+- `scripts/` — Signature and building tools
