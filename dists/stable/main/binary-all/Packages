@@ -1,3 +1,20 @@
+Package: sc-bubblesorter
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Charlesson Brandão <charlesson@example.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.34)
+Filename: pool/main/s/sc-bubblesorter/sc-bubblesorter_1.0.0-1_amd64.deb
+Size: 3500
+MD5sum: a818259ff11b717065a753dbd29e86d6
+SHA1: 7f0b9c1ed830337d1fae811b58a7cd8fb4fbe317
+SHA256: 2aa46ba856dc15eb6800955b6f858de011f94b034b3e64e6ffbc98161b958b23
+Section: utils
+Priority: optional
+Description: Simple C program for sorting names
+ A simple command-line application written in C that sorts
+ a list of names alphabetically.
+
 Package: securo-hello
 Version: 1.0.0
 Architecture: all

@@ -1,21 +1,13 @@
-Origin: Charlesson
-Label: Charlesson APT
+Origin: Securo OS
+Label: Securo OS
 Suite: stable
 Codename: stable
-Date: Tue, 25 Aug 2026 12:59:31 +0000
-Valid-Until: Tue, 01 Sep 2026 12:59:31 +0000
-Architectures: amd64 all
+Architectures: all
 Components: main
-Description: Charlesson APT Repository
+Date: Tue, 25 Aug 2026 15:37:35 +0000
 MD5Sum:
- 14ee5ebd24f47a4eb5679eab9b92b1b3              485 main/binary-all/Packages
- 15fa55a4829e5766667bb1c2cf50a52d              360 main/binary-all/Packages.gz
-SHA1:
- 3e4c85d954e486c94bf1da078811165e607bbcd6              485 main/binary-all/Packages
- 8ea2df8b8202096e86413cfb2c208379fb58805c              360 main/binary-all/Packages.gz
+ ef0987e27daf028f4071d221478abb15             1067 main/binary-all/Packages
+ a5d3dcb6e0071f191fed43e4b7c66be6              629 main/binary-all/Packages.gz
 SHA256:
- f203b814f90324d867b65043db1a1c49b15503666ac6d58a73749336ab58d73d              485 main/binary-all/Packages
- d6ee61dbb5793c69d40e521d0bf4a6f4f5ea68c9b0bc128477fb9eac2937bc4b              360 main/binary-all/Packages.gz
-SHA512:
- 8694244eb3b3641386214095bf0b38a70f5ef49b72d309c055ce4daf5ab09fd25457185481451125720c2334a8612a21f9a887fb68f57f780ae6d75c59fe2ea5              485 main/binary-all/Packages
- 58a9ac7172e8b672cda6e114e33cd67c625e110fbc18027e3ad11f80bedc0283558615893e335ab96c02a61a5a58779cf1abffb2af9627fdd89017d8e0884ee8              360 main/binary-all/Packages.gz
+ 9005549757cf08cc96eb612bf9da1ae015cd6dc79a236317de173604a2b6477b             1067 main/binary-all/Packages
+ 821107e2d51e14739ab3040e976b62631086650b4cda6717ef3348342df923ce              629 main/binary-all/Packages.gz
