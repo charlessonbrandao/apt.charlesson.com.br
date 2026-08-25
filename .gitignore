@@ -1,4 +1,4 @@
-# Material criptográfico privado
+#Private material 
 *.key
 *.pem
 *.priv
@@ -9,19 +9,19 @@
 *.jks
 *.keystore
 
-# Chaves SSH privadas
+# SSH private keys
 .ssh/
 id_rsa
 id_ecdsa
 id_ed25519
 id_dsa
 
-# GnuPG privado
+# GnuPG private
 .gnupg/
 private-keys-v1.d/
 trustdb.gpg
 
-# Credenciais
+# Credentials
 .env
 .env.*
 !.env.example
@@ -50,7 +50,7 @@ core
 core.*
 *.core
 
-# Dados locais
+# Local Data
 *.db
 *.sqlite
 *.sqlite3
@@ -66,7 +66,7 @@ tmp/
 temp/
 staging/
 
-# Pacotes gerados localmente
+# Local generated packages
 *.deb
 *.udeb
 *.ddeb
@@ -75,21 +75,21 @@ staging/
 *.changes
 *.buildinfo
 
-# Trabalho temporário do APT
+# staging and working files
 apt-work/
 apt-build/
 apt-staging/
 repo-work/
 repo-staging/
 
-# Arquivos de sistema/editor
+# System files
 .DS_Store
 Thumbs.db
 Desktop.ini
 .vscode/
 .idea/
 
-# Arquivos compactados locais
+# Compressed local files
 *.zip
 *.tar
 *.tar.gz
