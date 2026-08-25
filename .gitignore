@@ -1,0 +1,100 @@
+# Material criptográfico privado
+*.key
+*.pem
+*.priv
+*.private
+*.secret
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Chaves SSH privadas
+.ssh/
+id_rsa
+id_ecdsa
+id_ed25519
+id_dsa
+
+# GnuPG privado
+.gnupg/
+private-keys-v1.d/
+trustdb.gpg
+
+# Credenciais
+.env
+.env.*
+!.env.example
+credentials/
+credential/
+secrets/
+secret/
+private/
+keys/
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# Logs / dumps
+*.log
+*.trace
+*.dump
+*.dmp
+core
+core.*
+*.core
+
+# Dados locais
+*.db
+*.sqlite
+*.sqlite3
+
+# Build
+build/
+_build/
+out/
+output/
+dist/
+.cache/
+tmp/
+temp/
+staging/
+
+# Pacotes gerados localmente
+*.deb
+*.udeb
+*.ddeb
+*.rpm
+*.dsc
+*.changes
+*.buildinfo
+
+# Trabalho temporário do APT
+apt-work/
+apt-build/
+apt-staging/
+repo-work/
+repo-staging/
+
+# Arquivos de sistema/editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+
+# Arquivos compactados locais
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.7z
+*.rar

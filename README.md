@@ -1,2 +1,9 @@
-# apt.charlesson.com.br
-APT server and repo. Yet on development, for now, empty
+# Charlesson APT
+
+Repositório APT para distribuição de pacotes do projeto Securo.
+
+## Estrutura
+
+- `site/` — conteúdo publicado pelo GitHub Pages.
+- `repo/` — árvore do repositório APT.
+- `scripts/` — ferramentas de geração e assinatura.
